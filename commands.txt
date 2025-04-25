@@ -1,0 +1,5 @@
+# Create migration
+alembic revision --autogenerate -m "..."
+
+# Update database
+alembic upgrade head
